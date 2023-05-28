@@ -8,7 +8,7 @@ private:
     float conta;
 
 public:
-    // Construtor padr√£o
+    // Construtor padr„o
     ContaCorrente();
 
     // Destrutor
@@ -20,9 +20,9 @@ public:
     float getConta();
     // *************Fim do get e set*************
 
-    // ***********M√©todos da classe**************
+    // ***********MÈtodos da classe**************
 
-    // M√©todo para depositar valores na conta corrente
+    // MÈtodo para depositar valores na conta corrente
     void deposito(float deposito);
 
     // reajusta o valor do deposito em mais 5% do valor atual

@@ -19,10 +19,7 @@ void ContaCorrente::deposito(float deposito){
 }
 
 void ContaCorrente::rendimento(){
-    // dúvida para o professor
-    // essa porcentagem é sobre o deposito
-    // ou sobre o valor na conta, no caso,
-    // o saldo da conta.
+    conta += (conta*0.05);
 }
 
 void ContaCorrente::saque(float saque){
